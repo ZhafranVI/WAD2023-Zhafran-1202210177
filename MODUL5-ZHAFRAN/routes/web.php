@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\ShowroomController;
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\ShowroomController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

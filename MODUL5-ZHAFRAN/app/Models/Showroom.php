@@ -9,9 +9,13 @@ class Showroom extends Model
 {
     use HasFactory;
 
-    protected $table = 'showroom_mobil';
-
-    protected $filltable = [
-        'id', 'nama_mobil', 'brand_mobil', 'warna_mobil', 'tipe_mobil', 'harga_mobil'
+    public $table = 'showroom_mobil';
+    public $timestamps = false;
+    protected $fillable = [
+        'nama_mobil',
+        'brand_mobil',
+        'warna_mobil',
+        'tipe_mobil',
+        'harga_mobil'
     ];
 }
